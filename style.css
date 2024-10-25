@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    background-color: blanchedalmond;
+    font-family: "Rethink Sans";
+    font-size: medium;
+}
+
+#note {
+    text-align: center;
+    color: rgb(236, 2, 2);
+}
+
+#note_text {
+    text-align: left;
+    font-size: 90%;
+}
+
+#hn {
+    width: 300px; 
+    height: 200px;
+    border-radius: 10%;
+}
