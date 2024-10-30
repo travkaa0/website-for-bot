@@ -22,14 +22,10 @@ body {
     border-radius: 10%;
 }
 
-/* .container {
-    display: flex;
-    gap: 10px;
-  } */
   .center-wrapper {
     display: flex;
     justify-content: center;
-    padding: 40px 0; /* Добавляет отступ сверху и снизу */
+    padding: 40px 0;
 }
 
 .container {
