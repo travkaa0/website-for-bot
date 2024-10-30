@@ -95,3 +95,31 @@ body {
 iframe {
     border-radius: 5%;
 }
+
+/* Основные стили для полупрозрачного фона и закругленных углов */
+
+header, main, footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    border-radius: 15px; /* Округленные углы */
+    padding: 20px; /* Внутренние отступы для отделения текста от краев */
+    margin: 20px; /* Внешние отступы для разделения блоков */
+    color: white; /* Цвет текста, чтобы он был видим на темном фоне */
+    max-width: 1200px; /* Ограничение ширины */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объема */
+}
+
+/* Центрирование всего контента */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5; /* Цвет фона для контраста */
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Центрирование текста и изображения в header */
+header {
+    text-align: center;
+}
