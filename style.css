@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
 body {
-    background-color: blanchedalmond;
     font-family: "Rethink Sans";
     font-size: medium;
 }
@@ -96,193 +95,205 @@ iframe {
     border-radius: 5%;
 }
 
-/* Контейнер для списка команд и заметки */
+/* Container for the command list and notes */
 .content-container {
-    display: flex; /* Выравниваем список и заметку в одной строке */
-    gap: 20px; /* Расстояние между списком и заметкой */
-    align-items: flex-start; /* Выравниваем содержимое по верхнему краю */
+    display: flex; /* Align the list and note in one row */
+    gap: 20px; /* Space between the list and note */
+    align-items: flex-start; /* Align content to the top */
     max-width: 100%;
 }
 
-/* Новый блок для заголовка и списка команд */
+/* New block for the header and command list */
 .command-container {
-    flex: 2; /* Ширина командного блока относительно note */
-    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
-    border-radius: 10px; /* Округленные углы */
-    padding: 20px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    flex: 2; /* Width of the command block relative to the note */
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent background */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Internal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
-/* Стиль для заголовка и упорядоченного списка */
+/* Style for the header and ordered list */
 .command-container h3 {
-    text-align: center;
-    margin-top: 0;
+    text-align: center; /* Center text */
+    margin-top: 0; /* Remove top margin */
 }
 
 .command-list {
-    padding: 10px;
-    margin: 0;
+    padding: 10px; /* Internal padding */
+    margin: 0; /* Remove margin */
 }
 
-/* Блок для заметки */
+/* Block for notes */
 .note-box {
-    width: 40%; /* Занимает 40% от ширины страницы */
-    background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный фон */
-    border: 2px solid rgba(0, 0, 0, 0.3); /* Граница для заметки */
-    border-radius: 10px; /* Округленные углы */
-    padding: 15px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объема */
+    width: 40%; /* Occupies 40% of the page width */
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Border for notes */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Internal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
-/* Стиль текста заметки */
+/* Style for note text */
 .note-box h3 {
-    margin-top: 0;
-    text-align: left;
+    margin-top: 0; /* Remove top margin */
+    text-align: left; /* Align text to the left */
 }
 
 #note_text {
-    list-style-type: disc; /* Кружки для элементов списка */
-    padding-left: 20px; /* Отступ для списка */
-    font-size: 90%;
+    list-style-type: disc; /* Dots for list items */
+    padding-left: 20px; /* Padding for the list */
+    font-size: 90%; /* Font size */
 }
 
-/* Общий стиль для всех основных блоков: header, main и footer */
+/* General style for all main blocks: header, main, and footer */
 header, main, footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
-    border-radius: 15px; /* Округленные углы */
-    padding: 20px;
-    margin: 20px 0; /* Внешний отступ сверху и снизу */
-    color: white;
-    max-width: 1200px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Internal padding */
+    margin: 20px 0; /* Outer margin on top and bottom */
+    color: white; /* Text color */
+    max-width: 1200px; /* Maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
-/* Контейнер для заголовков и изображения */
+/* Container for the headers and image */
 .header-box {
-    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
-    border-radius: 10px; /* Округленные углы */
-    padding: 20px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
-    max-width: 600px; /* Ограничиваем максимальную ширину */
-    margin: 0 auto 20px; /* Центрируем блок */
-    text-align: center; /* Центрирование текста */
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent background */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Internal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    max-width: 600px; /* Limit maximum width */
+    margin: 0 auto 20px; /* Center the block */
+    text-align: center; /* Center text */
 }
 
-/* Стиль изображения внутри header-box */
+/* Style for images inside the header-box */
 .header-box img {
-    width: 100%; /* Изображение растягивается на всю ширину блока */
-    border-radius: 8px; /* Округленные углы изображения */
-    margin-top: 15px; /* Отступ сверху */
+    width: 100%; /* Image stretches to full width of the block */
+    border-radius: 8px; /* Rounded corners for the image */
+    margin-top: 15px; /* Top margin */
 }
 
-/* Контейнер для всей страницы */
+/* Container for the entire page */
 .page-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f5f5f5;
-    padding: 0;
-    margin: 0;
-    min-height: 100vh; /* Занимает всю высоту экрана */
-    box-sizing: border-box;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Vertical layout */
+    align-items: center; /* Center align items */
+    background-color: #f5f5f5; /* Background color */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+    min-height: 100vh; /* Occupy full height of the screen */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-/* Центрирование текста в header */
+/* Center text in header */
 header {
-    text-align: center;
+    text-align: center; /* Center align text */
 }
 
-/* Отдельный стиль для footer, если нужно добавить еще */
+/* Separate style for footer, if additional styling is needed */
 footer {
-    text-align: right;
+    text-align: right; /* Align text to the right */
 }
 
-/* Контейнер для списка команд и заметки */
+/* Container for the command list and notes */
 .content-container {
-    display: flex; /* Выравниваем список и заметку в одной строке */
-    gap: 20px; /* Расстояние между списком и заметкой */
-    align-items: flex-start; /* Выравниваем содержимое по верхнему краю */
-    max-width: 100%;
+    display: flex; /* Align the list and note in one row */
+    gap: 20px; /* Space between the list and note */
+    align-items: flex-start; /* Align content to the top */
+    max-width: 100%; /* Limit maximum width */
 }
 
-/* Новый блок для заголовка и списка команд */
+/* New block for the header and command list */
 .command-container {
-    flex: 2; /* Ширина командного блока относительно note */
-    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
-    border-radius: 10px; /* Округленные углы */
-    padding: 20px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    flex: 2; /* Width of the command block relative to the note */
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent background */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Internal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
 }
 
-/* Стиль для заголовка и упорядоченного списка */
+/* Style for the header and ordered list */
 .command-container h3 {
-    text-align: center;
-    margin-top: 0;
+    text-align: center; /* Center text */
+    margin-top: 0; /* Remove top margin */
 }
 
 .command-list {
-    padding: 10px;
-    margin: 0;
+    padding: 10px; /* Internal padding */
+    margin: 0; /* Remove margin */
 }
 
-/* Блок для заметки */
+/* Block for notes */
 .note-box {
-    width: 40%; /* Занимает 40% от ширины страницы */
-    background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный фон */
-    border: 2px solid rgba(0, 0, 0, 0.3); /* Граница для заметки */
-    border-radius: 10px; /* Округленные углы */
-    padding: 15px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объема */
+    width: 40%; /* Occupies 40% of the page width */
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent background */
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Border for notes */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Internal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
-/* Стиль текста заметки */
+/* Style for note text */
 .note-box h3 {
-    margin-top: 0;
-    text-align: left;
+    margin-top: 0; /* Remove top margin */
+    text-align: left; /* Align text to the left */
 }
 
 #note_text {
-    list-style-type: disc; /* Кружки для элементов списка */
-    padding-left: 20px; /* Отступ для списка */
-    font-size: 90%;
+    list-style-type: disc; /* Dots for list items */
+    padding-left: 20px; /* Padding for the list */
+    font-size: 90%; /* Font size */
 }
 
+/* Styles for social icons */
 .social-icons {
-    display: flex; /* Используем флексбокс для выравнивания иконок */
-    justify-content: center; /* Центрируем иконки по горизонтали */
-    gap: 15px; /* Расстояние между иконками */
-    margin-top: 20px; /* Отступ сверху */
+    display: flex; /* Use flexbox for icon alignment */
+    justify-content: center; /* Center icons horizontally */
+    gap: 15px; /* Space between icons */
+    margin-top: 20px; /* Top margin */
 }
 
+/* Player container styles */
 .player-container {
-    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
-    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
-    border-radius: 10px; /* Округленные углы */
-    padding: 20px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
-    margin-top: 20px; /* Отступ сверху */
+    background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent background */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Internal padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-top: 20px; /* Top margin */
 }
 
-/* Стили для заголовков внутри player-container */
+/* Styles for headers inside the player container */
 .player-container h3 {
-    text-align: center; /* Центрирование текста заголовка */
-    margin: 10px 0; /* Отступы сверху и снизу */
+    text-align: center; /* Center text for headers */
+    margin: 10px 0; /* Top and bottom margins */
 }
 
-/* Выравнивание аудио и iframe */
+/* Aligning audio and iframe */
 .audio-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 15px; /* Отступ снизу */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Vertical layout */
+    align-items: center; /* Center align items */
+    margin-bottom: 15px; /* Bottom margin */
 }
 
 .audio-image {
-    width: 100%; /* Занимает всю ширину родителя */
-    max-width: 170px; /* Максимальная ширина для изображения */
-    border-radius: 8px; /* Округленные углы */
-    margin-top: 10px; /* Отступ сверху */
+    width: 100%; /* Occupy full width of parent */
+    max-width: 170px; /* Maximum width for image */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 10px; /* Top margin */
+}
+
+/* Header box styles */
+.header-box {
+    width: 100%; /* Occupy full width of the container */
+    padding: 20px; /* Internal padding, if needed */
+    margin: 0; /* Remove outer margins */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background, if needed */
+    border-radius: 10px; /* Rounded corners, if needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
