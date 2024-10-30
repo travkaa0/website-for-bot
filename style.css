@@ -96,30 +96,53 @@ iframe {
     border-radius: 5%;
 }
 
-/* Основные стили для полупрозрачного фона и закругленных углов */
-
-header, main, footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
-    border-radius: 15px; /* Округленные углы */
-    padding: 20px; /* Внутренние отступы для отделения текста от краев */
-    margin: 20px; /* Внешние отступы для разделения блоков */
-    color: white; /* Цвет текста, чтобы он был видим на темном фоне */
-    max-width: 1200px; /* Ограничение ширины */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объема */
+/* Контейнер для списка команд и заметки */
+.content-container {
+    display: flex; /* Выравниваем список и заметку в одной строке */
+    gap: 20px; /* Расстояние между списком и заметкой */
+    align-items: flex-start; /* Выравниваем содержимое по верхнему краю */
+    max-width: 100%;
 }
 
-/* Центрирование всего контента */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f5f5f5; /* Цвет фона для контраста */
-    font-family: Arial, sans-serif;
-    padding: 0;
+/* Новый блок для заголовка и списка команд */
+.command-container {
+    flex: 2; /* Ширина командного блока относительно note */
+    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
+    border-radius: 10px; /* Округленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+}
+
+/* Стиль для заголовка и упорядоченного списка */
+.command-container h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.command-list {
+    padding: 10px;
     margin: 0;
 }
 
-/* Центрирование текста и изображения в header */
-header {
-    text-align: center;
+/* Блок для заметки */
+.note-box {
+    width: 40%; /* Занимает 40% от ширины страницы */
+    background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный фон */
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Граница для заметки */
+    border-radius: 10px; /* Округленные углы */
+    padding: 15px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объема */
+}
+
+/* Стиль текста заметки */
+.note-box h3 {
+    margin-top: 0;
+    text-align: left;
+}
+
+#note_text {
+    list-style-type: disc; /* Кружки для элементов списка */
+    padding-left: 20px; /* Отступ для списка */
+    font-size: 90%;
 }
