@@ -1,92 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
     <body>
+        <div class="page-container">
+            <header align="center" role="banner">
 
-        <header align="center" role="banner">
+                <h1>Welcom to my website</h1>
+                <h2>Here you can see the functions of my bot</h2>
 
-            <h1>Welcom to my website</h1>
-            <h2>Here you can see the functions of my bot</h2>
-
-            <img id="hn" role="img" src="https://chesswood.ru/wp-content/uploads/2016/03/Hikaru-Nakamura-1-600x400.jpg" alt="">
-            
-            <link rel="stylesheet" href="style.css">
-        </header>
+                <img id="hn" role="img" src="https://chesswood.ru/wp-content/uploads/2016/03/Hikaru-Nakamura-1-600x400.jpg" alt="">
+                
+                <link rel="stylesheet" href="style.css">
+            </header>
 
         <main>
+            <div class="content-container">
+                <div class="command-container">
+                    <h3 align="center">The work of my bot is extremely simple, but still, I will explain it to you in more detail.</h3>
 
-            <h3 align="center">The work of my bot is extremely simple, but still, I will explain it to you in more detail.</h3>
+                        <ol class="command-list">
+                            <li><strong>games</strong><br>  
+                                When you select this command, you’ll be presented with a list of some of the most famous chess grandmasters.<br>
+                                Clicking on any of their names will provide you with links to all their available games on chess.com.<br>This is 
+                                a great way to explore and learn from legendary players.</li><br>
 
-            <ol>
-                <li><strong>games</strong><br>  
-                    When you select this command, you’ll be presented with a list of some of the most famous chess grandmasters.<br>
-                    Clicking on any of their names will provide you with links to all their available games on chess.com.<br>This is 
-                    a great way to explore and learn from legendary players.</li><br>
+                            <li><strong>books</strong><br>  
+                                Selecting this command will send you a list of currently relevant chess books.<br>These are up-to-date resources 
+                                to help you improve your understanding of the game,<br>from openings to advanced strategy.</li><br>
 
-                <li><strong>books</strong><br>  
-                    Selecting this command will send you a list of currently relevant chess books.<br>These are up-to-date resources 
-                    to help you improve your understanding of the game,<br>from openings to advanced strategy.</li><br>
+                            <li><strong>puzzles</strong><br>  
+                                By selecting this command, you will receive a random chess puzzle.<br>At the top, the theme of the puzzle will be 
+                                displayed, and the solution can be revealed below in a spoiler format.<br>Currently, there are 11 puzzles available, 
+                                but more will be added in the future (note that some puzzles may repeat).</li><br>
 
-                <li><strong>puzzles</strong><br>  
-                    By selecting this command, you will receive a random chess puzzle.<br>At the top, the theme of the puzzle will be 
-                    displayed, and the solution can be revealed below in a spoiler format.<br>Currently, there are 11 puzzles available, 
-                    but more will be added in the future (note that some puzzles may repeat).</li><br>
+                            <li><strong>history</strong><br>  
+                                Selecting this command will display a list of centuries.<br>By clicking on a century, you will receive a brief overview 
+                                of chess history from that period.<br>It's a great way to learn how the game evolved over time.</li><br>
 
-                <li><strong>history</strong><br>  
-                    Selecting this command will display a list of centuries.<br>By clicking on a century, you will receive a brief overview 
-                    of chess history from that period.<br>It's a great way to learn how the game evolved over time.</li><br>
+                            <li><strong>recommendations</strong><br>  
+                                When you select this command, you’ll receive beginner-friendly recommendations on how to improve your chess skills.<br>
+                                These tips are designed to help new players get started and develop a solid foundation.</li><br>
 
-                <li><strong>recommendations</strong><br>  
-                    When you select this command, you’ll receive beginner-friendly recommendations on how to improve your chess skills.<br>
-                    These tips are designed to help new players get started and develop a solid foundation.</li><br>
+                            <li><strong>quotes</strong><br>  
+                                By selecting this command, you will be sent one of 10 quotes from 5 different grandmasters.<br>The list of quotes will 
+                                grow over time (some quotes may repeat).</li><br>
 
-                <li><strong>quotes</strong><br>  
-                    By selecting this command, you will be sent one of 10 quotes from 5 different grandmasters.<br>The list of quotes will 
-                    grow over time (some quotes may repeat).</li><br>
+                            <li><strong>learning</strong><br>  
+                                Selecting this command will provide you with links to 4 YouTube playlists that I have personally curated.<br>Each playlist 
+                                covers different chess topics aimed at helping you improve your game through structured lessons.</li><br>
 
-                <li><strong>learning</strong><br>  
-                    Selecting this command will provide you with links to 4 YouTube playlists that I have personally curated.<br>Each playlist 
-                    covers different chess topics aimed at helping you improve your game through structured lessons.</li><br>
+                            <li><strong>chess_basics</strong><br>  
+                                After selecting this command, you will need to press the "Start" button to begin.<br>From there, you can navigate through 
+                                11 basic chess topics using buttons. The next button may not disappear properly, but I’m working on fixing this issue 
+                                in the near future.</li><br>
 
-                <li><strong>chess_basics</strong><br>  
-                    After selecting this command, you will need to press the "Start" button to begin.<br>From there, you can navigate through 
-                    11 basic chess topics using buttons. The next button may not disappear properly, but I’m working on fixing this issue 
-                    in the near future.</li><br>
+                            <li><strong>dictionary</strong>  
+                                When you select this command, you will be asked to enter a letter (uppercase or lowercase).<br>You will then receive chess 
+                                terms that begin with that letter. This is a great way to familiarize yourself with chess terminology.</li>
+                        </ol>
+                </div>
 
-                <li><strong>dictionary</strong>  
-                    When you select this command, you will be asked to enter a letter (uppercase or lowercase).<br>You will then receive chess 
-                    terms that begin with that letter. This is a great way to familiarize yourself with chess terminology.</li>
-            </ol><br><hr>
+                <div class="note-box">
+                    <h3 id="note">Note:</h3>
+                        <ul id="note_text">
+                            <li>The "puzzles" command does not work repeatedly if you press the 'Yes' button. 
+                                    To receive a new puzzle, you will need to select the 'puzzles' command again.</li>
+                                <br><br>
+                            <li>Sometimes the answer doesn't always appear in the puzzle command, but I am working on fixing this issue.</li>
+                            <br><br>
+                            <li>A similar situation occurs with the 'dictionary' command. If you try to enter a letter again, the bot may not respond at all, 
+                                requiring you to access the dictionary command again to continue using it.</li>
+                            <br><br>
+                            <li>Measures will be taken to improve this functionality in the dictionary soon.</li>
+                        </ul>
+                </div>
+            </div>
+        </main>
 
-            <h3 id="note">Note:</h3>
-            <ul id="note_text">
-                <li>The "puzzles" command does not work repeatedly if you press the 'Yes' button. 
-                    To receive a new puzzle, you will need to select the 'puzzles' command again.</li>
-                    <br><br>
-                <li>Sometimes the answer doesn't always appear in the puzzle command, but I am working on fixing this issue.</li>
-                <br><br>
-                <li>A similar situation occurs with the 'dictionary' command. If you try to enter a letter again, the bot may not respond at all, 
-                    requiring you to access the dictionary command again to continue using it.</li>
-                <br><br>
-                <li>Measures will be taken to improve this functionality in the dictionary soon.</li>
-            </ul>
-            <br><br>
-            <hr>
-            <h4 align="center">
+        <h4 align="center">
                 Relaxing music and meme video especially for you 😁
-            </h4>       
+        </h4>       
 
-            <div class="center-wrapper">
-                <div class="container">
-                    
-                    <div class="audio-section">
-                        <audio controls>
-                            <source src="relax.mp3">
-                            Unfortunately, your browser does not support this music.
-                        </audio>
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bundesarchiv_Bild_102-14194%2C_Emanuel_Lasker.jpg/170px-Bundesarchiv_Bild_102-14194%2C_Emanuel_Lasker.jpg" 
-                        alt="Audio Cover" class="audio-image">
-                    </div>
-                    
+        <div class="center-wrapper">
+            <div class="container">
+                <div class="audio-section">
+                    <audio controls>
+                        <source src="relax.mp3">
+                        Unfortunately, your browser does not support this music.
+                    </audio>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bundesarchiv_Bild_102-14194%2C_Emanuel_Lasker.jpg/170px-Bundesarchiv_Bild_102-14194%2C_Emanuel_Lasker.jpg" 
+                    alt="Audio Cover" class="audio-image">
+                </div>
+                            
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/efZ5T4viShM?si=wUvySSqF-3uyCXHe" 
                             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                             gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -94,24 +98,22 @@
                 </div>
             </div>
 
-        </main><hr><br>
+            <footer>
 
-        <footer>
+                <div align="right">
+                    <a href="https://t.me/travkaa_dev" target="_blank">
+                        <img src="./logo/telegram.png" width="45" alt="telegram">
+                    </a>
 
-            <div align="right">
-            <a href="https://t.me/travkaa_dev" target="_blank">
-                <img src="./logo/telegram.png" width="45" alt="telegram">
-            </a>
+                    <a href="https://discordapp.com/users/796523526105464842/" target="_blank">
+                        <img src="./logo/discord.png" width="45" alt="discord">
+                    </a>
 
-            <a href="https://discordapp.com/users/796523526105464842/" target="_blank">
-                <img src="./logo/discord.png" width="45" alt="discord">
-            </a>
-
-            <a href="https://github.com/travkaa0" target="_blank">
-                <img src="./logo/github.png" width="45" alt="github">
-            </a>
-            </div>
-
-        </footer>
+                    <a href="https://github.com/travkaa0" target="_blank">
+                        <img src="./logo/github.png" width="45" alt="github">
+                    </a>
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
