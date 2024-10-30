@@ -146,3 +146,143 @@ iframe {
     padding-left: 20px; /* Отступ для списка */
     font-size: 90%;
 }
+
+/* Общий стиль для всех основных блоков: header, main и footer */
+header, main, footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    border-radius: 15px; /* Округленные углы */
+    padding: 20px;
+    margin: 20px 0; /* Внешний отступ сверху и снизу */
+    color: white;
+    max-width: 1200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Контейнер для заголовков и изображения */
+.header-box {
+    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
+    border-radius: 10px; /* Округленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    max-width: 600px; /* Ограничиваем максимальную ширину */
+    margin: 0 auto 20px; /* Центрируем блок */
+    text-align: center; /* Центрирование текста */
+}
+
+/* Стиль изображения внутри header-box */
+.header-box img {
+    width: 100%; /* Изображение растягивается на всю ширину блока */
+    border-radius: 8px; /* Округленные углы изображения */
+    margin-top: 15px; /* Отступ сверху */
+}
+
+/* Контейнер для всей страницы */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh; /* Занимает всю высоту экрана */
+    box-sizing: border-box;
+}
+
+/* Центрирование текста в header */
+header {
+    text-align: center;
+}
+
+/* Отдельный стиль для footer, если нужно добавить еще */
+footer {
+    text-align: right;
+}
+
+/* Контейнер для списка команд и заметки */
+.content-container {
+    display: flex; /* Выравниваем список и заметку в одной строке */
+    gap: 20px; /* Расстояние между списком и заметкой */
+    align-items: flex-start; /* Выравниваем содержимое по верхнему краю */
+    max-width: 100%;
+}
+
+/* Новый блок для заголовка и списка команд */
+.command-container {
+    flex: 2; /* Ширина командного блока относительно note */
+    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
+    border-radius: 10px; /* Округленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+}
+
+/* Стиль для заголовка и упорядоченного списка */
+.command-container h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.command-list {
+    padding: 10px;
+    margin: 0;
+}
+
+/* Блок для заметки */
+.note-box {
+    width: 40%; /* Занимает 40% от ширины страницы */
+    background-color: rgba(0, 0, 0, 0.1); /* Полупрозрачный фон */
+    border: 2px solid rgba(0, 0, 0, 0.3); /* Граница для заметки */
+    border-radius: 10px; /* Округленные углы */
+    padding: 15px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для объема */
+}
+
+/* Стиль текста заметки */
+.note-box h3 {
+    margin-top: 0;
+    text-align: left;
+}
+
+#note_text {
+    list-style-type: disc; /* Кружки для элементов списка */
+    padding-left: 20px; /* Отступ для списка */
+    font-size: 90%;
+}
+
+.social-icons {
+    display: flex; /* Используем флексбокс для выравнивания иконок */
+    justify-content: center; /* Центрируем иконки по горизонтали */
+    gap: 15px; /* Расстояние между иконками */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+.player-container {
+    background-color: rgba(0, 0, 0, 0.05); /* Полупрозрачный фон */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Граница */
+    border-radius: 10px; /* Округленные углы */
+    padding: 20px; /* Внутренние отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+/* Стили для заголовков внутри player-container */
+.player-container h3 {
+    text-align: center; /* Центрирование текста заголовка */
+    margin: 10px 0; /* Отступы сверху и снизу */
+}
+
+/* Выравнивание аудио и iframe */
+.audio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+.audio-image {
+    width: 100%; /* Занимает всю ширину родителя */
+    max-width: 170px; /* Максимальная ширина для изображения */
+    border-radius: 8px; /* Округленные углы */
+    margin-top: 10px; /* Отступ сверху */
+}
